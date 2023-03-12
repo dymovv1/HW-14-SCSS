@@ -1,0 +1,60 @@
+@function to-rem($pixels, $base-font-size: 16px) {
+    $rem-value: $pixels / $base-font-size;
+    @return $rem-value * 1rem;
+  }
+
+  @mixin firstTitle {
+    font-family: $font-raleway;
+    font-size: to-rem(18px);
+    line-height: 24px;
+    font-weight: 500;
+    color: $opacity-c;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+  }
+
+  @mixin goldTitle {
+    font-family: $font-roboto;
+    font-weight: 900;
+    font-size: to-rem(60px);
+    color: $line-cl;
+    line-height: 66px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+  }
+
+  @mixin sahariarTitle {
+    font-family: $font-roboto;
+    font-weight: 900;
+    font-size: to-rem(36px);
+    line-height: 42.19px;
+    color: $main-cl-tx;
+  }
+
+  @mixin frontendTitile {
+    font-family: $font-raleway;
+    font-size: to-rem(24px);
+    color: $main-cl-tx;
+    line-height: 36px;
+    font-weight: 400;
+  }
+
+  @mixin text {
+    font-family: $font-raleway;
+    font-size: to-rem(14px);
+    color: $text-color;
+    line-height: 24px;
+    font-weight: 400;
+  }
+
+  @mixin button {
+    display: inline-flex;
+    padding: 5px, 10px, 5px, 10px;
+    color: $line-cl;
+    font-family: $font-openS;
+    font-size: to-rem(14px);
+    line-height: 14px;
+    border: 1px solid $line-cl;
+  }

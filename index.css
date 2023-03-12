@@ -1,0 +1,135 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v30-latin-regular.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/roboto-v30-latin-900.woff2") format("woff2"), url("../fonts/roboto-v30-latin-900.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* raleway-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/raleway-v28-latin-regular.woff2") format("woff2"), url("../fonts/raleway-v28-latin-regular.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* raleway-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/raleway-v28-latin-500.woff2") format("woff2"), url("../fonts/raleway-v28-latin-500.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/open-sans-v34-latin-regular.woff2") format("woff2"), url("../fonts/open-sans-v34-latin-regular.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/open-sans-v34-latin-700.woff2") format("woff2"), url("../fonts/open-sans-v34-latin-700.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+.mb_15 {
+  margin-bottom: 15px;
+}
+
+.mb_50 {
+  margin-bottom: 50px;
+}
+
+.mb_45 {
+  margin-bottom: 45px;
+}
+
+.mb_25 {
+  margin-bottom: 25px;
+}
+
+.mb_10 {
+  margin-bottom: 10px;
+}
+
+.mb_20 {
+  margin-bottom: 20px;
+}
+
+.mb_40 {
+  margin-bottom: 40px;
+}
+
+.mb_32 {
+  margin-bottom: 32px;
+}
+
+.header {
+  display: flex;
+}
+.header-subtitle {
+  font-family: "Raleway";
+  font-size: 1.125rem;
+  line-height: 24px;
+  font-weight: 500;
+  color: #898F8F;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+.header-title {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 3.75rem;
+  color: #FFCC00;
+  line-height: 66px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+.header-img {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.header-img::after, .header-img::before {
+  content: "";
+  display: block;
+  width: 210px;
+  border: 1px solid #FFCC00;
+  background-color: #FFCC00;
+  height: 0px;
+  position: relative;
+  top: 9px;
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1190px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+
+body {
+  padding-top: 121px;
+}/*# sourceMappingURL=index.css.map */

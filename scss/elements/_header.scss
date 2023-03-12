@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+
+    &-subtitle {
+        @include firstTitle;
+    }
+    
+    &-title {
+        @include goldTitle;
+    }
+
+    &-img {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    &-img::after,&-img::before {
+        content: "";
+        display: block;
+        width: 210px;
+        border: 1px solid $line-cl;
+        background-color: $line-cl;
+        height: 0px;
+        position: relative;
+        top: 9px;
+    }
+    
+}

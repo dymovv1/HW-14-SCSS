@@ -47,14 +47,24 @@
     color: $text-color;
     line-height: 24px;
     font-weight: 400;
+    max-width: 430px;
+    text-align: center;
   }
 
   @mixin button {
     display: inline-flex;
-    padding: 5px, 10px, 5px, 10px;
-    color: $line-cl;
     font-family: $font-openS;
     font-size: to-rem(14px);
     line-height: 14px;
     border: 1px solid $line-cl;
+    color: $main-cl-tx;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+
+  @mixin flex-center {
+    display: flex;
+    justify-content: center;
   }

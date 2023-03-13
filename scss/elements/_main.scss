@@ -1,0 +1,19 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+
+    &-line__gold {
+        height: 550px;
+        border: 1px solid $line-cl;
+        width: 0px;
+        margin-left: 85px;
+        margin-right: 85px;
+
+    }
+
+    &-block__flex {
+        display: flex;
+    }
+}
+

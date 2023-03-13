@@ -1,3 +1,20 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1190px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+
+body {
+  padding-top: 121px;
+}
+
 /* roboto-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -117,19 +134,111 @@
   top: 9px;
 }
 
-* {
-  padding: 0%;
-  margin: 0%;
-  box-sizing: border-box;
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.main-line__gold {
+  height: 550px;
+  border: 1px solid #FFCC00;
+  width: 0px;
+  margin-left: 85px;
+  margin-right: 85px;
+}
+.main-block__flex {
+  display: flex;
 }
 
-.container {
-  max-width: 1190px;
-  padding-left: 10px;
-  padding-right: 10px;
+.block-info__title--name {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 2.25rem;
+  line-height: 42.19px;
+  color: #666666;
+  display: flex;
+  justify-content: center;
+}
+.block-info__title--name::after {
+  content: "";
+  width: 100px;
+  border: 1px solid #FFCC00;
+  height: 0px;
+}
+.block-info__title--position {
+  font-family: "Raleway";
+  font-size: 1.5rem;
+  color: #666666;
+  line-height: 36px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+}
+.block-info__text {
+  font-family: "Raleway";
+  font-size: 0.875rem;
+  color: #333333;
+  line-height: 24px;
+  font-weight: 400;
+  max-width: 430px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.block-info__button {
+  transition: all 0.1s;
+  max-width: 118px;
   margin: 0 auto;
 }
+.block-info__button:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 0px 4px 0px #FFCC00;
+}
+.block-info__icons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
 
-body {
-  padding-top: 121px;
+.info-icon__link {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #cccccc;
+}
+
+.info-icon__link:hover {
+  border-color: #FFCC00;
+  transition: all 0.5s;
+  transform: rotateY(360deg);
+  box-shadow: 0px 0px 4px 0px #FFCC00;
+}
+
+svg {
+  top: -1px;
+  left: -2px;
+  display: block;
+  position: relative;
+}
+
+.info-icon__link:hover svg path {
+  fill: #FFCC00;
+  transition: all 0.2s;
+}
+
+.icon-link__path {
+  fill: #cccccc;
+}
+
+.button {
+  display: inline-flex;
+  font-family: "Open Sans";
+  font-size: 0.875rem;
+  line-height: 14px;
+  border: 1px solid #FFCC00;
+  color: #666666;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px 10px;
 }/*# sourceMappingURL=index.css.map */

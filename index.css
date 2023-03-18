@@ -75,6 +75,10 @@ body {
   margin-bottom: 45px;
 }
 
+.mb_16 {
+  margin-bottom: 16px;
+}
+
 .mb_25 {
   margin-bottom: 25px;
 }
@@ -85,6 +89,14 @@ body {
 
 .mb_20 {
   margin-bottom: 20px;
+}
+
+.mb_21 {
+  margin-bottom: 21px;
+}
+
+.mb_22 {
+  margin-bottom: 21px;
 }
 
 .mb_40 {
@@ -157,6 +169,16 @@ body {
 .main-block__flex {
   display: flex;
 }
+.main-block__img {
+  padding: 15px;
+  background: linear-gradient(to right, #FFCC00 1px, transparent 1px) 0 0, linear-gradient(to right, #FFCC00 1px, transparent 1px) 0 100%, linear-gradient(to left, #FFCC00 1px, transparent 1px) 100% 0, linear-gradient(to left, #FFCC00 1px, transparent 1px) 100% 100%, linear-gradient(to bottom, #FFCC00 1px, transparent 1px) 0 0, linear-gradient(to bottom, #FFCC00 1px, transparent 1px) 100% 0, linear-gradient(to top, #FFCC00 1px, transparent 1px) 0 100%, linear-gradient(to top, #FFCC00 1px, transparent 1px) 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  max-height: 430px;
+}
+.main-block__img--container {
+  padding-top: 65px;
+}
 
 .block-info__title--name {
   font-family: "Roboto";
@@ -184,6 +206,7 @@ body {
   font-weight: 400;
   max-width: 430px;
   text-align: center;
+  letter-spacing: 0.1px;
   display: flex;
   justify-content: center;
 }
@@ -200,6 +223,10 @@ body {
   display: flex;
   justify-content: center;
   gap: 5px;
+}
+
+.main-block__info {
+  padding-top: 69px;
 }
 
 .line-gold__title {
